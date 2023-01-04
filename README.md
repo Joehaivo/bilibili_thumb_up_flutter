@@ -131,3 +131,18 @@ GestureDetector(
 3. 仅就此案例来说，同样为声明式UI，Flutter代码对比Compose代码稍显啰嗦，对动画的集成也需要更多的步骤来完成
 4. 但其中的编程思想是类似的：UI由各个组件相互包裹嵌套来描述，并在底层转化为DOM树，UI的变化依赖于状态，状态改变UI随之改变，并在变化时由系统自动计算其Diff以减少重复渲染的成本
 
+## 3. 本文所用Flutter环境
+```bash
+flutter doctor
+Doctor summary (to see all details, run flutter doctor -v):
+[✓] Flutter (Channel stable, 3.3.5, on macOS 13.0.1 22A400 darwin-arm, locale zh-Hans-CN)
+[✓] Android toolchain - develop for Android devices (Android SDK version 33.0.0)
+[✓] Xcode - develop for iOS and macOS (Xcode 14.1)
+[✓] Chrome - develop for the web
+[✓] Android Studio (version 2022.1)
+[✓] IntelliJ IDEA Ultimate Edition (version 2022.1.4)
+[✓] VS Code (version 1.73.0)
+[✓] Proxy Configuration
+[✓] Connected device (2 available)
+[✓] HTTP Host Availability
+```
